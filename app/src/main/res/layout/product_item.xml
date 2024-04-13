@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:padding="6dp"
+            android:id="@+id/pd_image"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pd_id"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp"
+                android:text="id"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pd_title"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp"
+                android:text="title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pd_price"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="price"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pd_brand"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp"
+                android:text="brand"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pd_categroy"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp"
+                android:text="category"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pd_discription"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp"
+                android:text="discription"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</layout>
